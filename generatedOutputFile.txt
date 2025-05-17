@@ -1,0 +1,237 @@
+
+Processing testCase1 commands:
+
+
+Calling isEmpty().
+isEmpty returned: 1
+Calling add(20).
+Successfully added: 20
+Calling add(30).
+Successfully added: 30
+Calling printSort(ascending)
+
+Performing in-order traversal
+Node key: 20
+Node key: 30
+End of binary search tree
+Successfully called printSort.
+Calling printSort(descending)
+
+Performing reverse-order traversal
+Node key: 30
+Node key: 20
+End of binary search tree
+Successfully called printSort.
+Calling clear()
+Successfully called clear.
+Calling isEmpty().
+isEmpty returned: 1
+Calling add(40).
+Successfully added: 40
+Calling add(50).
+Successfully added: 50
+Calling remove(106)
+Successfully removed: 106
+Calling isEmpty().
+isEmpty returned: 0
+
+
+Finished processing testcase, testCase1.
+
+
+
+
+Printing out the cache contents
+
+Here are the FIFO List contents: 
+FIFO Node key: 50 
+FIFO Node key: 40 
+End of FIFO List
+
+Here are the Hash Table contents (2 entries):
+Bucket 0: Empty
+Bucket 1: Empty
+Bucket 2: Empty
+Bucket 3: Empty
+Bucket 4: Empty
+Bucket 5: Empty
+Bucket 6: 
+FIFO info from cacheManager:  Node key: 50
+Bucket 7: 
+FIFO info from cacheManager:  Node key: 40
+Bucket 8: Empty
+Bucket 9: Empty
+Bucket 10: Empty
+End of table
+
+Performing in-order traversal
+Node key: 40
+Node key: 50
+End of binary search tree
+
+Performing reverse-order traversal
+Node key: 50
+Node key: 40
+End of binary search tree
+
+End of cache contents
+
+
+Processing testCase2 commands:
+
+
+Calling add(101).
+Successfully added: 101
+Calling add(102).
+Successfully added: 102
+Calling add(202).
+Successfully added: 202
+Calling getSize().
+getSize returned: 3
+Calling add(303).
+Successfully added: 303
+Calling add(402).
+Successfully added: 402
+Calling add(502).
+Successfully added: 502
+Calling add(602).
+Successfully added: 602
+Calling add(702).
+Successfully added: 702
+Calling printSort(ascending)
+
+Performing in-order traversal
+Node key: 101
+Node key: 102
+Node key: 202
+Node key: 303
+Node key: 402
+Node key: 502
+Node key: 602
+Node key: 702
+End of binary search tree
+Successfully called printSort.
+Calling printSort(descending)
+
+Performing reverse-order traversal
+Node key: 702
+Node key: 602
+Node key: 502
+Node key: 402
+Node key: 303
+Node key: 202
+Node key: 102
+Node key: 101
+End of binary search tree
+Successfully called printSort.
+Calling getSize().
+getSize returned: 8
+Calling remove(202)
+Successfully removed: 202
+Calling getSize().
+getSize returned: 7
+Calling contains(702).
+contains(702) returned: 1
+Calling contains(202).
+contains(202) returned: 0
+Calling contains(901).
+contains(901) returned: 0
+Calling add(808).
+Successfully added: 808
+Calling remove(702)
+Successfully removed: 702
+Calling add(902).
+Successfully added: 902
+Calling printSort(ascending)
+
+Performing in-order traversal
+Node key: 101
+Node key: 102
+Node key: 303
+Node key: 402
+Node key: 502
+Node key: 602
+Node key: 808
+Node key: 902
+End of binary search tree
+Successfully called printSort.
+Calling printSort(descending)
+
+Performing reverse-order traversal
+Node key: 902
+Node key: 808
+Node key: 602
+Node key: 502
+Node key: 402
+Node key: 303
+Node key: 102
+Node key: 101
+End of binary search tree
+Successfully called printSort.
+
+
+Finished processing testcase, testCase2.
+
+
+
+
+Printing out the cache contents
+
+Here are the FIFO List contents: 
+FIFO Node key: 902 
+FIFO Node key: 808 
+FIFO Node key: 602 
+FIFO Node key: 502 
+FIFO Node key: 402 
+FIFO Node key: 303 
+FIFO Node key: 102 
+FIFO Node key: 101 
+End of FIFO List
+
+Here are the Hash Table contents (8 entries):
+Bucket 0: 
+FIFO info from cacheManager:  Node key: 902
+Bucket 1: Empty
+Bucket 2: 
+FIFO info from cacheManager:  Node key: 101
+Bucket 3: 
+FIFO info from cacheManager:  Node key: 102
+Bucket 4: Empty
+Bucket 5: 
+FIFO info from cacheManager:  Node key: 808
+Bucket 6: 
+FIFO info from cacheManager:  Node key: 402
+FIFO info from cacheManager:  Node key: 303
+Bucket 7: 
+FIFO info from cacheManager:  Node key: 502
+Bucket 8: 
+FIFO info from cacheManager:  Node key: 602
+Bucket 9: Empty
+Bucket 10: Empty
+End of table
+
+Performing in-order traversal
+Node key: 101
+Node key: 102
+Node key: 303
+Node key: 402
+Node key: 502
+Node key: 602
+Node key: 808
+Node key: 902
+End of binary search tree
+
+Performing reverse-order traversal
+Node key: 902
+Node key: 808
+Node key: 602
+Node key: 502
+Node key: 402
+Node key: 303
+Node key: 102
+Node key: 101
+End of binary search tree
+
+End of cache contents
+
+
